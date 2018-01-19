@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+
+$fonts: "Open Sans", sans-serif; 
+
+$color_primary: #fff;
+$background_color: #313234;
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	
+	font-family: $fonts;
+	color: $color_primary;
+	background-color: $background_color;
+
+	.joke-chuck {
+		
+		padding: 20px;
+		display: table;
+		
+		p {
+			
+			padding-top: 20px;
+
+		}
+
+	}
+
+	main {
+		
+		background-color: #55ACEE;
+		margin: 0 auto;
+		text-align: center;
+		
+	
+		header h1 {
+
+			border-bottom: 1px solid #313234;
+			border-right: 1px solid #313234;
+			border-left: 1px solid #313234;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			background: linear-gradient(gray, pink);
+			clear: fixed;
+			width: 100%;
+			max-width: 90%;
+			margin: 0 auto;
+			padding: 10px;
+			text-shadow: 1px 1px 1px #fff;
+			color: black;
+			
+		}
+		
+		.box {
+			width: 100%;
+			max-width: 80%;
+
+			margin: 0 auto;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			text-shadow: 1px 1px 1px #000;
+
+			.quote {
+
+				padding-top: 30px;
+				text-shadow: 1px 1px 1px #000;
+
+			}
+
+			.author {
+
+				padding-top: 40px;
+				
+			}
+
+		}
+
+		.buttons {
+			max-width: 230px;
+			width: 100%;
+			margin: 0 auto;
+			padding-top: 20px;
+			padding-bottom: 70px;
+			
+
+			.trigger {
+			
+				background-color: rgba(0,0,0, 0.0);
+				color: $color_primary;
+				border: 1px solid #313234;
+				width: 100%;
+				background: linear-gradient(gray, pink);
+				text-shadow: 1px 1px 1px #fff;
+				color: black;
+			}
+
+			.tweet {
+
+				background-color: rgba(0,0,0, 0.0);
+				color: $color_primary;
+				border: 1px solid #313234;
+				width: 100%;
+				margin-top: 10px;
+				background: linear-gradient(gray, pink);
+				text-shadow: 1px 1px 1px #fff;
+				color: black;	
+
+			}
+
+		}
+
+	}
+
+	footer {
+		
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+		font-size: 12px;
+
+	}
+
+}
