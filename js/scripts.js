@@ -2,7 +2,7 @@ $(function() {
 
 	// ----------------- Ajax using jQuery ----------------- //
 
-	var url = 'http://api.icndb.com/jokes/random';
+	var url = 'https://api.icndb.com/jokes/random';
 	var $button = $('#get-joke').click(function() {
 
 		getJoke();
